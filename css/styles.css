@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(187, 187, 187);
+/*  font-family: oswald;*/
+}
+
+.btn{
+    box-align: center;
+}
+
+.btn_banner{
+    border: 2px solid white;
+    padding: 15px 30px;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 25px;
+
+}
+
+.center{
+    text-align: center;
+}
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-color: black;
+    cursor: pointer ;
+    margin-bottom: 10px;
+   /* margin-right: 5px;*/
+}
+
+.card .textos {
+	height: 100%;
+	display: grid;
+    grid-template-rows: 1fr auto ;	
+}
+
+
+.card2{
+    background-color: black;
+    padding: 50px;
+    margin-bottom: 10px;
+
+
+    border-radius: 10px;
+}
+.card2 img {
+    width: 400px;
+    margin: 0 auto;
+    /* margin: 0 = sin margen arriba y abajo auto= al centro */
+
+    border: solid 2px white;
+}
+
+.fondo {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-color: black;
+    cursor: pointer ;
+    margin-bottom: 10px;
+   /* margin-right: 5px;*/
+}
+
+.card .textos {
+	height: 100%;
+	display: grid;
+    grid-template-rows: 1fr auto ;	
+}
+footer{
+    background-color: rgb(0, 0, 0);
+}
+
+.colorBlanco{
+    color: white;
+}
+
+.bannerHome{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: center fixed url(../img/lia.jpg);
+}
+.bannerCapitulos{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: center fixed url(../img/a.png);
+}
+
+.bannerArte{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: center fixed url(../img/b.png);
+}
+
+.bannerContacto{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: center fixed url(../img/c.png);
+}
+
+
+.bannerFooter{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: center fixed url(../img/1.png);
+}
+
+.banner_descripcion{
+    width: 90%;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
